@@ -17,14 +17,12 @@ public interface BookService {
 	 * @return
 	 */
 	Book getById(long bookId);
-
 	/**
 	 * 查询所有图书
 	 * 
 	 * @return
 	 */
 	List<Book> getList();
-
 	/**
 	 * 预约图书
 	 * 
